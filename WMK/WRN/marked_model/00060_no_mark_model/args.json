@@ -1,0 +1,1 @@
+{"config": "configs/cifar10/train_configs/resnet.yaml", "resume": null, "no_cuda": false, "gpu": null}
