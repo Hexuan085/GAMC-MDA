@@ -1,0 +1,1 @@
+{"wm_config": "configs/cifar10/wm_configs/content.yaml", "no_cuda": false, "filename": "/home/xhe085/Proj/NEW_WMK/Watermark-Robustness-Toolbox/outputs/cifar10/null_models/resnet/00062_null_model/best.pth", "gpu": null, "pretrained_dir": "outputs/cifar10/wm/pretrained/resnet/00000_pretrained"}
