@@ -1,0 +1,1 @@
+{"wm_config": "configs/cifar10/wm_configs/noise.yaml", "no_cuda": false, "filename": "best.pth", "gpu": null, "pretrained_dir": "/home/xhe085/Proj/NEW_WMK_densenet/Watermark-Robustness-Toolbox/outputs/cifar10/null_models/resnet/00094_null_model"}
