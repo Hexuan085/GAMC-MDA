@@ -1,1 +1,0 @@
-from wrt.postprocessors.postprocessor import Postprocessor
