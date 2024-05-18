@@ -1,0 +1,1 @@
+{"config": "configs/cifar10/train_configs/resnet.yaml", "resume": "/home/xhe085/Proj/NEW_WMK_densenet/Watermark-Robustness-Toolbox/outputs/cifar10/null_models/resnet/00093_null_model/best.pth", "no_cuda": false, "gpu": null}
