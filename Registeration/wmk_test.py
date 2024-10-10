@@ -29,7 +29,7 @@ def image_to_random_number(image_path):
     with open(image_path, 'rb') as f:
         data = f.read()
         hash_value = hashlib.sha256(data).hexdigest()
-        random_number = int(hash_value, 16)  # 将哈希值转换成整数
+        random_number = int(hash_value, 16)  
         return random_number
 
 # def create_trigger_list(size, wmk_x, wmk_y):
@@ -80,14 +80,14 @@ n, A0, S = setup()  # n = p*q, A0 = secrets.randbelow(n), S空字典
 path = f'/Users/hexuan/Documents/Academic/RESEARCH/Projects/RSA-accumulator-master/TBW/wm_png/{wmk}/wmk_mem.txt'
 elements_for_accumulator = create_trigger_list(total_utxo_set_size_for_accumulator, path)
 print('elements_for_accumulator', elements_for_accumulator)
-inputs_for_accumulator = elements_for_accumulator[0:num_of_inputs_in_tx]  # 默认是num_of_inputs_in_tx * num_of_txs_in_block
+inputs_for_accumulator = elements_for_accumulator[0:num_of_inputs_in_tx]  
 nonces_for_accumulator = elements_for_accumulator[0:num_of_inputs_in_tx]
 
 # print('inputs_for_accumulator', inputs_for_accumulator)
 # print('nonces_for_accumulator', nonces_for_accumulator)
-# outputs_for_accumulator = create_trigger_list(50, wmk_x, wmk_y)  # 第一个输入决定有多少个trigger, 默认是：num_of_outputs_in_tx * num_of_txs_in_block
+# outputs_for_accumulator = create_trigger_list(50, wmk_x, wmk_y)  
 tik = time.time()
-A_post_batch_add, proof = batch_add(A0, S, elements_for_accumulator, n)  # 把elements_for_accumulator加到S里
+A_post_batch_add, proof = batch_add(A0, S, elements_for_accumulator, n) 
 # print('S')
 
 tok = time.time()
@@ -229,5 +229,5 @@ print("<--   Done. total (per block):", acc_batch_verify_mem_with_NIPoE_per_bloc
       acc_batch_verify_mem_with_NIPoE_per_tx_timing[-1])
 
 print(wmk_dict)
-# with open(f'/Users/hexuan/Documents/Academic/RESEARCH/Projects/RSA-accumulator-master/TBW/wm_png/{wmk}/wmk_dict_{num_of_inputs_in_tx}.pkl', 'wb') as file:
+# with open(f'~/Documents/Academic/RESEARCH/Projects/RSA-accumulator-master/TBW/wm_png/{wmk}/wmk_dict_{num_of_inputs_in_tx}.pkl', 'wb') as file:
 #     pickle.dump(wmk_dict, file)
