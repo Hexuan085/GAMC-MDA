@@ -27,7 +27,7 @@ total_time = {}
 sign_time = {}
 single_time = {}
 batch_time = {}
-# 使用读取的数据
+
 for i in length_mem:
     single_time[i] = []
     batch_time[i] = []
@@ -48,7 +48,7 @@ for i in length_add:
 
 schemes = ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'W8']
 schemes_densenet = ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7']
-# 假设每个子图的数据
+
 data = {
     "(a) Accumulator vaule generation time": {
         "total_mem=30": total_time[30],
@@ -149,7 +149,7 @@ sns.heatmap(percent_densenet, annot=True, fmt=".0f", xticklabels=schemes_densene
 plt.xlabel('(b) Watermark scheme for Densenet',fontsize=14)
 plt.ylabel('Threshold of decrease in WA',fontsize=14)
 
-plt.xticks(rotation=45, fontsize=12)  # 旋转x轴标签以便于阅读，并设置字体大小
+plt.xticks(rotation=45, fontsize=12)  
 plt.yticks(rotation=90, fontsize=12)
 
 # plt.tight_layout()
