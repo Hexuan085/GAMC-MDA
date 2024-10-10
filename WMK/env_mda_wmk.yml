@@ -176,4 +176,3 @@ dependencies:
       - tensorboard==2.15.1
       - tensorboard-data-server==0.7.2
       - werkzeug==3.0.1
-prefix: /home/xhe085/anaconda3/envs/MDA_WMK
