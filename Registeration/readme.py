@@ -3,7 +3,7 @@ certification.py: Calculation for OR protocol
 
 shishi.py: Draw the time of signature generation
 
-sign_time.py: Calculate the time of signature generation
+Draw_time_sign.py: Calculate the time of signature generation
 
 wmk_test.py: Generate the membership
 
