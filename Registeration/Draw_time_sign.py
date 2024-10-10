@@ -3,7 +3,7 @@ import pickle
 
 metric = ['max', 'min', 'mean']
 length = [30, 50, 100]
-with open(f'/Users/hexuan/Documents/Academic/RESEARCH/Projects/RSA-accumulator-master/TBW/wm_png/wmk_dict_100.pkl',
+with open(f'~/Academic/RESEARCH/Projects/RSA-accumulator-master/TBW/wm_png/wmk_dict_100.pkl',
           'rb') as f:
     data = pickle.load(f)
 
