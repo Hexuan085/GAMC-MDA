@@ -17,10 +17,10 @@ plt.figure(figsize=(8, 4))
 bars = []
 for i in length:
 
-    plt.fill_between(schemes, data[('max', i)], data[('min', i)],  # 上限，下限
-                     facecolor=facecolor[j],  # 填充颜色
-                     edgecolor=edgecolor[j],  # 边界颜色
-                     alpha=0.25)  # 透明度ps: // blog.csdn.net / OldDriver1995 / article / details / 116128063
+    plt.fill_between(schemes, data[('max', i)], data[('min', i)], 
+                     facecolor=facecolor[j],  
+                     edgecolor=edgecolor[j],  
+                     alpha=0.25)
     plt.plot(schemes, data[('max', i)],color=facecolor[j], linewidth=1, linestyle='--')
     plt.plot(schemes, data[('min', i)], color=facecolor[j], linewidth=1, linestyle='--')
     plt.plot(schemes, data[('mean', i)], color=facecolor[j], linestyle = line_styles[j], linewidth=3.5, label=f'length = {i}', marker='o',markersize=10)
