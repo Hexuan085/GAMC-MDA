@@ -1,5 +1,5 @@
 ## Anti-MDA
-Code for 'Generic and Anti-MDA Model Certification'
+Code for 'Generic and Anti-MDA Model Certification for Intellectual Property Protection in MLaaS'
 
 ## Produce a marked model for registration
 This part is adapted from [Watermark-Robustness-Toolbox](https://github.com/dnn-security/Watermark-Robustness-Toolbox/tree/master). Several watermark schemes: [Content](https://dl.acm.org/doi/abs/10.1145/3196494.3196550?casa_token=RZrfzSIO_uwAAAAA:N7ohyz15GCGfoXRMtew-dX5dV-heZyI-N5Tod1xyKFWb46MXLPeqdfhMLizAFXlVE_VfZP_m2T3M), 
