@@ -34,9 +34,7 @@ This embeds an Jia watermark into the pre-trained model from 'Step 1' and saves 
 $ python steal.py --attack_config configs/cifar10/attack_configs/ftal.yaml \
                   --wm_dir outputs/cifar10/wm/adi/00000_adi/
 ```
-This runs the Fine-Tuning (FTAL) removal attack against the watermarked model and creates a surrogate model stored under
-``outputs/cifar10/attacks/ftal/``. The directory also contains human-readable debug files, such as the surrogate model's watermark and 
-test accuracies. 
+You can run this part when you want to try removing a watermark. The result will be stored``outputs/cifar10/attacks/ftal/``. Note that the performance of the resulting model can be different from the original one.
 
 ### Step 4: Evaluate the Watermark Accuracy
 ```shell
