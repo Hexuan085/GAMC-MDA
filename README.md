@@ -34,7 +34,7 @@ This embeds an Jia watermark into the pre-trained model from 'Step 1' and saves 
 $ python steal.py --attack_config configs/cifar10/attack_configs/ftal.yaml \
                   --wm_dir outputs/cifar10/wm/adi/00000_adi/
 ```
-You can run this part when you want to try removing a watermark. The result will be stored``outputs/cifar10/attacks/ftal/``. Note that the performance of the resulting model can be different from the original one.
+This uses a removal attack of input_noise to adjust the watermark accuracy so that we can compare the ownership robustness with and without the proposed registration mechanism. The result will be stored under
 
 ### Step 4: Evaluate the Watermark Accuracy
 ```shell
