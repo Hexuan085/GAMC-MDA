@@ -40,7 +40,7 @@ This uses a removal attack of input_noise to adjust the watermark accuracy so th
 ```shell
 $ python wmk_acc_cal_deepsign.py --wm_config configs/cifar10/wm_configs/jia.yaml --pretrained_dir1  outputs/cifar10/wm/adi/00000_adi --pretrained_dir outputs/cifar10/poisoning_attack/00006_jia
 ```
-we can check the accuracy of watermark embeded into '00000_adi' for model '00006_jia' where the watermark 'Jia' is embeded to the marked model '00000_adi'.
+We can check the accuracy of watermark embeded into '00000_adi' for model '00006_jia' where the watermark 'Jia' is embeded to the marked model '00000_adi'.
 
 ## Watermrak Registration
 
