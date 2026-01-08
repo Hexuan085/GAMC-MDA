@@ -1,4 +1,4 @@
-## Anti-MDA
+## GAMC-MDA
 Code for '[GAMC: Generic and Anti-MDA Model Certification for Intellectual Property Protection in MLaaS](https://ieeexplore.ieee.org/abstract/document/11129249/)'
 
 ## Produce a marked model for registration
